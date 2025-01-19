@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El lago Musical </title>
+
+  <!--Librerias-->
+  <!-- Bootstrap CSS File -->
+  <link href="/bootstrap/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <script src="/bootstrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- POPPERS -->
+  <script src="/bootstrap/node_modules/@popperjs/core/dist/umd/popper.min.js"  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="/bootstrap/node_modules/bootstrap/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  <!-- Sweet alertas -->
+  <script src="/sweetalert2/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+  <link rel="stylesheet" href="/sweetalert2/node_modules/sweetalert2/dist/sweetalert2.min.css" />
+  <!-- Iconos de boostrap -->
+  <link href="/iconosBootstrap/node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+  <!--jquery-->
+  <script src="/jquery/jquery-3.7.1.min.js"></script>
+  <!--Validacion y respuesta-->
+  <script src="/js/validarSonido.js"></script>
+
+</head>
+<body>
+    <div class="row justify-content-center mt-5">
+        <!--Card 1-->
+        <div class="col-md-6">
+            <div class="card w-100">
+                <!--Titulo-->
+                <div class="card-header">
+                    <h1 class="card-title text-center"> El lago musical</h1>
+                </div>
+                <!--Cuerpo-->
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-12 mb-2">
+                            <!--Formulario para que el usuario hable-->
+                            <form id="formHablar">
+                                <!--Fila 1-->
+                                <div class="row mx-5 mb-3">
+                                    <div class="col-md-12">
+                                        <button class="btn btn-success" id="btnHablar" name="btnHablar"><i class="bi bi-mic-fill"></i> Toque para empezar a hablar</button>
+                                        <p class="mt-2 mx-2" id="alertarVoz"></p>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+
+                    </div>
+    
+                </div>
+    
+            </div>
+
+        </div>
+        
+
+    </div>
+
+
+
+
+
+
+</body>
+
+
+</html>
